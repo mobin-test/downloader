@@ -6,7 +6,7 @@ dow = ApifyClient("apify_api_4yaUtNE7cjcfsKOh13hZU2Lg2HW8hB2bLIkb")
 
 api_id = 5527711
 api_hash = "bfe9610f27c9298bbae60d066d11c5e7"
-bot_token = "5270337919:AAFLwHzASQGI-XqQryy4h2Gvzx11jeZKyqY"
+bot_token = "1670124420:AAHdw3dsLvTK5PBh_-tZ5OfzZLkWe5VeNeU"
 app = Client("333", api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 
 async def is_join(chat_id, user_id):
