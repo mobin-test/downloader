@@ -1,7 +1,6 @@
 from pyrogram import Client, filters ,types
 from pyrogram.types import ReplyKeyboardMarkup,InlineKeyboardButton,InlineKeyboardMarkup 
 from apify_client import ApifyClient
-from pytubefix import YouTube
 
 dow = ApifyClient("apify_api_4yaUtNE7cjcfsKOh13hZU2Lg2HW8hB2bLIkb")
 
