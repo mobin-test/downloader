@@ -67,7 +67,7 @@ async def id(client, message):
             )
         )
         return False
-    id = await app.ask(chat_id, "آیدی مورد نظر را وارد کنید ")
+    id = await app.ask(chat_id, "آیدی مورد نظر را وارد کنید ", timeout=30)
     
     try:
         run_input = { "usernames": [f"{id.text}"] }
